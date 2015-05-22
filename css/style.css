@@ -1,10 +1,14 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: LOW JEWELRY
+Client: LOW
+Author: Jennifer Spriggs
 */
 
+/******************************************
+/* SASS VARIABLES                   
+/*******************************************/
+$font-stack: ;
+$primary-color ;
 
 /******************************************
 /* SETUP                   
@@ -81,23 +85,45 @@ footer {
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
-        img {
-            height: 300px;
-        }
 }
 
-.lookbook-ads {
-    .lookbook-banners {
-        .AD1 {
+.jumbotron img.logo {
+    height: 300px;
+}
 
-        }
-        .AD2 {
-            
-        }
-        .AD3 {
-            
-        }
-    }
+#lookbook-ads {
+    display: -webkit-inline-box;
+    margin: 0% 0% 0% 10%;
+}
+
+#lookbook-ads .AD1 {
+
+    background-image: url(../images/LOWBANNERS-07.png);
+    height: 560px; 
+    width: 310px;
+    background-size: 310px 560px;
+    background-repeat: no-repeat;
+    margin: 0px 10px 0px 0px;
+}
+
+#lookbook-ads .AD2 {
+
+    background-image: url(../images/LOWBANNERS-08.png);
+    height: 560px; 
+    width: 310px;
+    background-size: 310px 560px;
+    background-repeat: no-repeat;
+    margin: 0px 10px 0px 0px;
+}
+
+#lookbook-ads .AD3 {
+
+    background-image: url(../images/LOWBANNERS-09.png);
+    height: 560px; 
+    width: 310px;
+    background-size: 310px 560px;
+    background-repeat: no-repeat;
+    margin: 0px 10px 0px 0px;
 }
 
 
