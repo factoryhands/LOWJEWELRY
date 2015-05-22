@@ -84,6 +84,11 @@ footer {
     background-color: #FFF;
 }
 
+.navbar-nav>li {
+    font-weight: 400;
+    font-size: 14px;
+}
+
 /******************************************
 /* IMAGES                
 /*******************************************/
@@ -136,5 +141,25 @@ footer {
     margin: 0px 10px 0px 0px;
 }
 
+/******************************************
+/* FOOTER                
+/*******************************************/
+
+form {
+    margin: 5% 0% 0% 30%;
+}
+
+button, input {
+    border: none;
+    background-color: #dfe0de;
+    width: 40%;
+    padding: 1%;
+    font-size: 14px;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    width: 12%;
+    background-color: #FFF;
+}
 
 
