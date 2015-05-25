@@ -144,6 +144,92 @@ table {
     margin: 0px 10px 0px 0px;
 }
 
+footer .NewBottom img {
+    height: 20px;
+    margin: 0% 0% 0% -38%;
+    padding: 0% 20% 0% 0%;
+}
+
+/******************************************
+/* SHOP IMAGES                
+/*******************************************/
+
+#shop-images {
+    display: -webkit-inline-box;
+}
+
+#shop-images .SHOP1 {
+    background-image: url(../shopimages/Arc+Bracelet.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP2 {
+    background-image: url(../shopimages/ARC+RING.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP3 {
+    background-image: url(../shopimages/cross+ring2.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP4 {
+    background-image: url(../shopimages/Moon+Ring.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP5 {
+    background-image: url(../shopimages/RUBY+NECK.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP6 {
+    background-image: url(../shopimages/SPIKE+NECKLACE.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP7 {
+    background-image: url(../shopimages/spike+ring2.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP8 {
+    background-image: url(../shopimages/X+pendant.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
+#shop-images .SHOP9 {
+    background-image: url(../shopimages/X+ring.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+}
+
 /******************************************
 /* FOOTER                
 /*******************************************/
