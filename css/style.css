@@ -5,10 +5,9 @@ Author: Jennifer Spriggs
 */
 
 /******************************************
-/* SASS VARIABLES                   
+/* IMPORTS                 
 /*******************************************/
-$font-stack: ;
-$primary-color ;
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 /******************************************
 /* SETUP                   

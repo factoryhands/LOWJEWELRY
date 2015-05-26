@@ -8,11 +8,19 @@
     <title>LOW JEWELRY</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-	<!-- NATIVE CSS STUFF -->
+    <!-- NATIVE CSS STUFF -->
     <link rel="stylesheet" href="css/normalize.css">
 	  <link rel="stylesheet" href="css/style.css">
+
+    <!-- LIGHTBOX CSS -->
+    <link href="css/lightbox.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,14 +43,24 @@
   	    <div class="container">
   	      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
   	      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-  	        <span class="glyphicon glyphicon-bar"></span>
-  	        <span class="glyphicon glyphicon-bar"></span>
-  	        <span class="glyphicon glyphicon-bar"></span>
+  	        <span class="glyphicon glyphicon-menu-hamburger"></span>
   	      </a>
   	      <div class="navbar-collapse collapse">
   	        <ul class="nav navbar-nav">
   	          <li class="active"><a href="shop.html">SHOP</a></li>
-  	          <li class="active"><a href="#">LOOKBOOK</a></li>
+  	          <li class="active">
+                  <a href="images/lookbook1.jpg" data-lightbox="LOW">LOOKBOOK</a>
+                  <div style="display:none;">
+                  <a href="images/lookbook2.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook3.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook4.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook5.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook6.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook7.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook8.jpg" data-lightbox="LOW"></a>
+                  <a href="images/lookbook9.jpg" data-lightbox="LOW"></a>
+                </div>
+              </li>
   	          <li class="divider"></li>
   	        </ul>
   	        <ul class="nav pull-right navbar-nav">
@@ -83,15 +101,17 @@
               <table cellpadding="0" cellspacing="0" border="0" align="right">
                 <tbody>
                   <tr>
+                    <!-- twitter -->
+                    <!--<td>
+                       <a href="https://www.facebook.com/catbirdnyc" target="_blank"><img src="images/facebook.png"></a>
+                    </td> -->
                     <td>
-                      <a href="https://www.facebook.com/catbirdnyc" target="_blank"><img src="images/facebook.png"></a>
+                      <a href="https://instagram.com/lowjewelry/" target="_blank"><img src="images/insta.png"></a>
                     </td>
-                    <td>
-                      <a href="http://instagram.com/catbirdnyc" target="_blank"><img src="images/insta.png"></a>
-                    </td>
-                    <td>
-                      <a href="http://catbirdnyc.blogspot.com/" target="_blank"><img src="images/twitter.png"></a>
-                    </td>
+                    <!-- blog -->
+                    <!-- <td>
+                      <a href="#" target="_blank"><img src="images/twitter.png"></a>
+                    </td> -->
                   </tr>
                 </tbody>
               </table>
@@ -109,6 +129,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- LIGHTBOX JAVASCRIPT/JQUERY -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
 
   </body>
 </html>
