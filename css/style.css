@@ -64,15 +64,48 @@ body {
     padding: 100px 0px 100px 0px;
     width: 70%;
     margin: auto;
+    text-align: center;
 }
 
-.container2 h1 {
-    color: #B0B0B0;
-}
+    .container2 h2 {
+        color: #7C7C7C;
+        font-family: 'EB Garamond', serif;
+        font-weight: 100;
+        font-size: x-large;
+    }
 
-.container2 h2 {
-    color: #7C7C7C;
-}
+    .container2 blockquote {
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+      border-left: none;
+    }
+
+    .container2 blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+
+    .container2 blockquote:after {
+      color: #ccc;
+      content: close-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+
+    .container2 blockquote p {
+        display: inline;
+        color: #B0B0B0;
+        font-family: 'EB Garamond', serif;
+        font-size: -webkit-xxx-large;
+        line-height: .9em;
+    }
 
 .container3 {
     margin-left: auto;
@@ -95,6 +128,10 @@ header {
     left: 50%;
     margin-left: -50px !important;  /* 50% of your logo width */
     display: block;
+}
+
+#nav a {
+    color: #7C7C7C;
 }
 
 .navbar-default {
