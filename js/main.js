@@ -5,10 +5,15 @@ $(document).ready(function(){
 	      offset: { top: $('#nav').offset().top }
 	});	
 
-	$('a').click(function(){
+	$('#anchor1').click(function(){
 	    $('html, body').animate({
-	        scrollTop: $( $(this).attr('href') ).offset().top
-	    }, 700);
-	    return false;
+	        scrollTop: $('.container3').offset().top
+	    }, 1500);
+	});
+
+	$('#anchor2').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $('.container2').offset().top
+	    }, 1500);
 	});
 });
